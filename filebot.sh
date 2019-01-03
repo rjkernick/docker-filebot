@@ -20,8 +20,8 @@ QUOTE_FIXER='replaceAll(/[\`\u00b4\u2018\u2019\u02bb]/, "'"'"'").replaceAll(/[\u
 # Music/Eric Clapton/From the Cradle/05 - It Hurts Me Too.mp3
 MUSIC_FORMAT="Music/{n.$QUOTE_FIXER}/{album.$QUOTE_FIXER}/{media.TrackPosition.pad(2)} - {t.$QUOTE_FIXER}"
 
-# Movies/Fight Club.mkv
-MOVIE_FORMAT="Movies/{n.$QUOTE_FIXER} {' CD'+pi}"
+# Movies/Fight Club (year).mkv
+MOVIE_FORMAT="Movies/{n.$QUOTE_FIXER} ({y}) {' CD'+pi}"
 
 # TV Shows/Game of Thrones/Season 05/Game of Thrones - S05E08 - Hardhome.mp4
 # TV Shows/Game of Thrones/Special/Game of Thrones - S00E11 - A Day in the Life.mp4
